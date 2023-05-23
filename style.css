@@ -41,11 +41,14 @@ body {
     animation: none;
   }
   @keyframes Subir {
-    from{
+    0%{
         bottom: 30px;
         rotate: 0deg;
     }
-    to{
+    50%{
+      rotate: 0deg;
+    }
+    100%{
         bottom: 600px;
         rotate: 180deg;
     }
