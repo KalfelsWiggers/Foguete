@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+    position: relative;
+    width: 700px;
+    height: 700px;
+    border: 1px solid blue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .lua{
+    width: 155px;
+    position: absolute;
+    top: -80px;
+  }
+  p{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 100px;
+    color: white;
+  }
+  span{
+    color: blue;
+  }
+  .terra {
+    width: 155px;
+    position: absolute;
+    bottom: -60px;
+  }
+  #foguete {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    bottom: 30px;
+    animation: none;
+  }
+  @keyframes Subir {
+    from{
+        bottom: 30px;
+        rotate: 0deg;
+    }
+    to{
+        bottom: 600px;
+        rotate: 180deg;
+    }
+  }

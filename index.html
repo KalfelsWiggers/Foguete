@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <script src="./js/jquery-3.7.0.min.js"></script>
+    <script src="./js/script.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foguete</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="box">
+        <img src="./img/ceu.png" width="100%" height="100%">
+      <img src="./img/lua.png" class="lua">
+      <p>Clique no foguete ou <span onclick="Tocar();"><u><b>AQUI</b></u></span> para iniciar!</p>
+      <img onclick="Tocar();" src="./img/foguete.gif" id="foguete" />
+      <img src="./img/terra.png" class="terra" />
+      <audio src="lancamento_foguete.mp3" id="audio2"  style="display: none;" controls></audio>
+  </body>
+</html>
